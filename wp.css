@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #333300; */
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .header{
+    display: block;
+    background-color:#0a0a0a;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.header h1{
+    margin-bottom: 10px;
+} */
+.col{
+    display: inline-block;
+    margin: auto;
+    border: outset black;
+    background-color: #999900;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 130px;
+    background-image: linear-gradient(to bottom right, #1d4ed8,#0284c7,black);
+    width: 300px;
+    height: 400px;
+}
+.h-1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.h-2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.h-3{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.main{
+    width: 100%;
+    /* background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(2.jpg);
+    background-position: center;
+    background-size: cover; */
+    height: 9vh;
+    border-radius: 10px;
+    margin: auto;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-top: 5px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 100px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*particular diff area*/
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+li a{
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+    color: rgb(89, 77, 139);
+    cursor: grab;
+}
+.search{
+    padding-top: 15px;
+    float: right;
+}
+.btn-1{
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    transition: 0.5s ease-in;
+}
+.btn-1:hover{
+    color: rgb(89, 77, 139);
+}
+.srch{
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+.card{
+    text-align: center;
+    color: white;
+}
+.card img{
+    border-radius: 50%;
+    width: 75px;
+    height: 80px;
+    padding-top:10px;
+}
+.p-1{
+    padding-top: 10px;
+    font-size: 30px;   
+}
+.p-2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.p-3{
+    padding-top: 10px;
+}
+.link{
+    padding-top: 3px;
+}
+.link .fa{
+    text-decoration:none;
+}
+.fa{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 7px;
+    margin: 7px;
+}
+.link .fa:hover{
+    color: rgb(89, 77, 139);
+    transition: 0.6s ease-in-out;
+}
+.p-4{
+    padding-top: 30px;
+    font-size: 35px
+}
+.link-2{
+    font-size: 20px;
+}
+.link-2 a{
+    text-decoration: none;
+}
+.footer hr{
+    width: 1350px; 
+    margin: auto; 
+    margin-top: 90px;
+}
+.footer p{
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.p-5{
+    display: flex;
+    float: right;
+    margin-right: 630px;
+}
+.form{
+    display: inline-flex;
+    float: right;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+.form a{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
